@@ -2,6 +2,8 @@
 import java.util.Scanner;
 
 public class KnapsackMemoization {
+
+    //Max Possible Dimensions According to the constraints given
     static final int D = 1000; // DP - matrix dimension
     static int[][] t = new int[D][D]; // DP matrix
 
